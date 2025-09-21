@@ -1,0 +1,11 @@
+server:
+ port: 8888
+spring:
+ application:
+  name: config-server
+ cloud:
+  config:
+   server:
+    git:
+     uri: https://github.com/9899195519/config-repo.git # Replace with your repo path or GitHub URL
+     default-label: mylearn
